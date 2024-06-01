@@ -21,11 +21,10 @@ Laravel >= 8.x
 6. Запуск сервера
    php artisan serve
 
-Интеграция Swagger:
-    Установка:
-       1.Установка Swagger-PHP и пакета Laravel Swagger
-           composer require "darkaonline/l5-swagger"
-       2. Публикация конфигурационных файлов
-           php artisan vendor:publish --provider "L5Swagger\L5SwaggerServiceProvider"
-       3. Генерация документации
-           php artisan l5-swagger:generate
+Swagger:
+1.Установка Swagger-PHP и пакета Laravel Swagger
+    composer require "darkaonline/l5-swagger"
+2. Публикация конфигурационных файлов
+    php artisan vendor:publish --provider "L5Swagger\L5SwaggerServiceProvider"
+3. Генерация документации
+    php artisan l5-swagger:generate
