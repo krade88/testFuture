@@ -20,6 +20,7 @@ Laravel >= 8.x
     php artisan migrate
 6. Запуск сервера
    php artisan serve
+
 Интеграция Swagger:
     Установка:
        1.Установка Swagger-PHP и пакета Laravel Swagger
